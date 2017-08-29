@@ -34,6 +34,9 @@ public class CccourseController {
         Ccstudent stu= (Ccstudent) request.getAttribute("stu");
         session.setAttribute("stuid",stu.getStuid());
         request.setAttribute("courses", icccourseService.query());
+
+        Sys''
+
         return "/stu.jsp";
     }
 
