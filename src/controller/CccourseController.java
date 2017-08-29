@@ -35,7 +35,7 @@ public class CccourseController {
         session.setAttribute("stuid",stu.getStuid());
         request.setAttribute("courses", icccourseService.query());
 
-        Sys''
+        Sys'1111111111111111111111111111'
 
         return "/stu.jsp";
     }
